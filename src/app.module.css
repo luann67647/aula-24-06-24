@@ -1,0 +1,12 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 256px auto;
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 1rem;
+    gap: 2rem;
+    /*align-items: flex-start;*/
+
+
+}

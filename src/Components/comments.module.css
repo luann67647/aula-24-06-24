@@ -1,0 +1,78 @@
+/* comments.module.css */
+
+.comments {
+    display: flex;
+    background-color: rgb(62, 141, 189);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px cadetblue;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .commentsContent {
+    margin-left: 20px;
+  }
+  
+  .comments img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profissao {
+    font-size: 18px;
+    color: #0b4588;
+  }
+  
+  .endereco {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .infoBlock {
+    margin-top: 20px;
+  }
+  
+  .infoBlock h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .infoBlock ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .infoBlock li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .infoBlock img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .infoBlock a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .infoBlock a:hover {
+    text-decoration: underline;
+  }
+  
